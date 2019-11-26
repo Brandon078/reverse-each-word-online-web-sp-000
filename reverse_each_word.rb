@@ -6,5 +6,3 @@ def reverse_each_word(string)
   end
   string_reversal
 end
-
-  
