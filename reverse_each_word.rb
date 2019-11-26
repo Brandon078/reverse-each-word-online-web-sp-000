@@ -1,3 +1,3 @@
 def reverse_each_word(string)
-  string.split.map {|quote| quote.reverse}.join(" ")
+  string.split.collect {|quote| quote.reverse}.join(" ")
   end
